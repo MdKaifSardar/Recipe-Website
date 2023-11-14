@@ -62,16 +62,10 @@ ul {
 .recipes{
     border-radius: 10px;
     padding: 9%;
-    /* padding: 10px; */
-    background-image: url("images/biryani.jfif");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     /* height: 47vh; */
-    background-color: red;
 }
 .recipe_container{
     width: 97vw;
@@ -97,4 +91,28 @@ a{
         justify-content: center;
         /* flex-wrap: wrap; */
     }
+}
+.biryani{
+    background-image: url("images/biryani.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fried_rice{
+    background-image: url("images/Fried_Rice.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pulao{
+    background-image: url("images/Pulao.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.idli_dosa{
+    background-image: url("images/Idli_Dosa.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
